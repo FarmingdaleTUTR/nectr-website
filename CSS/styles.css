@@ -31,8 +31,24 @@
 }
 
 
-a{
+.input[type=text] {
+	
+    width: 60px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 30%;
+}
+.Search_box{
+
+padding-top: 7%;
+padding-left: 40%;
+}
+
+a{
 text-decoration: none;	
 font-family: "Calibri";
 color: black;
@@ -46,7 +62,7 @@ li{
 }
 
 .nav{
-
+padding-top: 3%;
 	float: right;
 }
 
