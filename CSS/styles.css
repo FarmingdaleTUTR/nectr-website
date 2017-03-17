@@ -15,14 +15,18 @@
 	text-indent: -99999px;
 	background: url('logo.jpeg');
 	width: 190px;
-	height: 130px;
+	height: 110px;
 
+}
+.navbar{
+	height: 120px;
 }
 
 a{
 text-decoration: none;	
 font-family: "Calibri";
 color: black;
+
 }
 
 li{
@@ -33,13 +37,13 @@ li{
 }
 
 .nav{
-	background: red;
+
+	float: right;
 
 }
 
 .box{
-	margin-left: 130%;
-	margin-top: 20%;
-
+	margin-left: 27%;
+	margin-top: 5%;
 }
 
