@@ -1,0 +1,49 @@
+.body{
+	width: 100%;
+	margin: auto;
+
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.logo{ 
+	float: left;
+	text-indent: -99999px;
+	background: url('logo.jpeg');
+	width: 190px;
+	height: 110px;
+
+}
+.navbar{
+	height: 120px;
+}
+
+a{
+text-decoration: none;	
+font-family: "Calibri";
+color: black;
+
+}
+
+li{
+	list-style: none;
+	float: left;
+	margin-left: 15px;
+	padding-top: 20px;
+}
+
+.nav{
+	
+	float: right;
+
+}
+
+.box{
+	margin-left: 27%;
+	margin-top: 5%;
+}
+
