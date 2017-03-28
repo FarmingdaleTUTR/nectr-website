@@ -2,10 +2,22 @@
 <html>
 <head>
   <title>NECTR</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<style type="text/css">
+  
+  #imgLogo{
+    width:150px;
+    height:50px;
+    background: url(images/logo.png) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .navbar-brand{
+    margin-top: 0;
+  }
+</style>
+  
 </head>
 <body>  <!-- This is the whole page -->
 
@@ -13,51 +25,33 @@
 <body class="home">
 
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><div id="imgLogo"></div></li>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Sign up</a></li>
+      <li><a href="#">Sign in</a></li>
+      <li><a href="#">Learn About Us</a></li>
+    </ul>
+    <form class="navbar-form navbar-right">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
+  </div>
+</nav>
 
+<div class="container">
+  <h3>Navbar Forms</h3>
+  <p>Use the .navbar-form class to vertically align form elements (same padding as links) inside the navbar.</p>
+</div>
 
-<!-- Contains the static Header -->
-  
-<div class="navbar navbar-default" style="background: white">
-
-    <div class="container">
-        <div class="navbar-header">
-
-
-      <div class="logo">
-          <img src = "./css/logo">
-      <!--   <h1><a href="./css/logo">Logo here</h1> -->
-
-        </div>
-
-            <div class="box">
-        <div class="row">
-  <div class="col-lg-6">
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search for...">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Search</button>
-      </span>
-    </div><!-- /input-group -->
-  </div><!-- /.col-lg-6 -->
-</div><!-- /.row -->
-            
-        </div>
-        <div class="col-lg-12">
-        <div class="nav">
-          <ul>
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Log in</a></li>
-            <li><a href="#">Join the Hive</a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
-          
-          </div>
-          </div>  
-      </div>
-    </div>  
-    </div>  
-
-  <!-- Header ends here -->
 
 
 
