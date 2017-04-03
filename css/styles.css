@@ -1,0 +1,53 @@
+
+  .navbar-brand{
+    margin-top: 0;
+  }
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+
+      width: 60%;
+      margin: 0 auto;
+   
+  }
+  
+.container-car{ 
+  background-color: #ffb81c;
+ 
+
+   
+}
+
+.container{
+
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+
+.studyImage{
+   width:150px;
+    height:50px;
+    margin: 0 auto;
+
+}
+
+.col-sm-5
+{
+
+padding-top: 3%;
+
+}
+
+.col-sm-6
+{
+  padding-right: 10%;
+background-size: cover;
+ margin-top: -9%;
+  float: right;
+}
+
+
+.btn-container{
+  margin-left: 50%;
+
+}
