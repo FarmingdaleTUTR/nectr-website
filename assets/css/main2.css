@@ -1,0 +1,13 @@
+#search {
+position: relative;
+height: 100px;
+line-height: 100px;
+background-color: rgba(89,144,222,.6);
+}
+#search h2{
+text-shadow: 2px 2px black;
+text-align: center;
+color: white;
+font-family:"Impact";
+font-size: 25px;
+}
