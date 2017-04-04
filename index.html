@@ -1,72 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NECTR</title>
-	  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>NECTR</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-<style type="text/css">
-	
-	#imgLogo{
-		width:150px;
-		height:50px;
-		background: url(images/logo.png) no-repeat center center;
-		background-size: cover;
-		margin: 0 auto;
-   
-}
 
-	#imgStudy{
-		width: 240px;
-		height: 370px;
-		background: url(images/study_bee.jpg);
-		background-size: cover;
-		margin: 0 auto;
-		margin-top: 30px;
-
-}
-
-#imgCash{
-		width: 290px;
-		height: 370px;
-		background: url(images/cash_flower.jpg);
-		background-size: cover;
-		margin: 0 auto;
-		margin-top: -20%;
-		margin-right: 41%;
-
-}
-
-#imgTeam{
-		width: 490px;
-		height: 370px;
-		background: url(images/bee_team.png);
-		background-size: cover;
-		margin: 0 auto;
-		margin-top: -20%;
-		margin-right: 41%;
-
-}
-
-
-</style>
 
 </head>
 <body>
 
 <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav">
-    	<li><div id="imgLogo"></div></li>
+  <div class="container-fluid" >
+    <ul class="nav navbar-nav"> <!-- Div dor the links -->
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Sign up</a></li>
-      <li><a href="#">Sign in</a></li>
-      <li><a href="#">Learn About Us</a></li>
+      <li><a href="/sign-up">Sign up</a></li>
+      <li><a href="/sign-in">Sign in</a></li>
+      <li><a href="/Learn-about-us">Learn About Us</a></li>
     </ul>
-    <form class="navbar-form navbar-right">
+    </div>
+    <div class="logo"><!--  Logo div -->
+    <li><div id="imgLogo"></div></li>
+  </div>
+  <div class="Search"> <!-- This is the Dic for the search bar -->
+   <form class="navbar-form navbar">
   <div class="input-group">
     <input type="text" class="form-control" placeholder="Search">
     <div class="input-group-btn">
@@ -75,8 +35,8 @@
       </button>
     </div>
   </div>
-</form>
   </div>
+</form>
 </nav>
 
 
@@ -161,8 +121,8 @@
   <div class="row">
     <div class="col-sm-5">
      <div class="btn-container">
-	 <p><a class="btn btn-warning btn-lg" href="#" role="button">Join the hive</a></p>
-		</div>
+   <p><a class="btn btn-warning btn-lg" href="/sign-up" role="button">Join the hive</a></p>
+    </div>
      
     </div>
     <div class="col-sm-6"  >
@@ -177,14 +137,14 @@
 
 <!-- <center>
 <div class="container-team">
-	
+  
 
  <li><div id="imgTeam"></div></li>
 </div>
 </center>
 <center>
-	<div class="btn-container">
-	 <p><a class="btn btn-warning btn-lg" href="#" role="button">Sign up</a></p>
+  <div class="btn-container">
+   <p><a class="btn btn-warning btn-lg" href="#" role="button">Sign up</a></p>
 </div>
 </center>
 
