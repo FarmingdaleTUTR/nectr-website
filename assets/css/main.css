@@ -2782,19 +2782,6 @@
 			width: 40%;
 		}
 
-		#search {
-    position: relative;
-    height: 100px;
-    line-height: 100px;
-    background-color: rgba(89,144,222,.6);
-		}
-		#search h2{
-    text-shadow: 2px 2px black;
-    text-align: center;
-    color: white;
-    font-family:"Impact";
-    font-size: 25px;
-		}
 
 			.tiles article .image {
 				display: none;
@@ -3421,7 +3408,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/bee-moving.gif");
+		background-image: url("../../images/nectrgif.gif");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3582,6 +3569,9 @@
 
 			#banner {
 				background-attachment: scroll;
+			}
+			#banner.h1{
+				font-size: 7em;
 			}
 
 		}
