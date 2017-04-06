@@ -1,0 +1,10 @@
+.fa{
+  margin-left: 45%; 
+  color: black;
+}
+
+.container-fluid{
+  columns: 1; margin-left: 35%; 
+  padding-bottom: 1%;
+}
+
